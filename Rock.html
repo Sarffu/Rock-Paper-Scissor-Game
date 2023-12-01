@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-p-s Game</title>
+    <link rel="stylesheet" href="Rock.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Rock Paper Scissor Game</h1>
+        </div>
+        <div class="result">
+
+            <div>
+                <h2>My Score :</h2>
+                <h2 id="myscore">0</h2>
+            </div>
+
+            <div>
+                <h2>Computer Score :</h2>
+                <h2 id="comScore">0</h2>
+            </div>
+        </div>
+
+        <div class="game">
+            <div>
+                <h2>Computer :</h2>
+                <img id="comp" alt="cmp">
+            </div>
+            <div>
+                <h2>User :</h2>
+                <img id="user" alt="usr">
+            </div>
+        </div>
+        <br>
+
+        <span>
+            <h2>Result :<h2 id="result"></h2>
+            </h2>
+
+        </span>
+        <div class="img">
+            <img onclick="myFun1()" src="Images/rock.png" alt="rck">
+            <img onclick="myFun2()" src="Images/paper.png" alt="ppr">
+            <img onclick="myFun3()" src="Images/scissor.png" alt="scr">
+
+        </div>
+
+    </div>
+
+    <script src="Rock.js"></script>
+</body>
+
+</html>
